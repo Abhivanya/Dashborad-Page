@@ -31,11 +31,11 @@ const CampaignOverview = () => {
       </div>
 
       <div className="absolute top-4 right-4 ">
-        <div className="flex justify-between items-center gap-2">
+        <div className="flex justify-between items-center gap-4">
           <select className="bg-gray-100 text-gray-500 px-3 py-2 shadow-md rounded-md font-medium">
             <option value="">Last 30 Days</option>
           </select>
-          <IoMdResize />
+          <IoMdResize className="text-gray-500" />
         </div>
       </div>
 

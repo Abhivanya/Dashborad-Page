@@ -22,9 +22,15 @@ const CamaignReport = () => {
                 className="flex-grow outline-none text-gray-600 text-sm"
               />
             </div>
-            <LuSettings2 size={28} className="text-gray-700 mr-2" />
+            <LuSettings2
+              size={28}
+              className="text-gray-700 mr-2 cursor-pointer"
+            />
           </div>
-          <div className="flex text-red-500 font-semibold items-center gap-4 cursor-pointer">
+          <div
+            className="flex text-red-500 font-semibold items-center gap-4 cursor-pointer"
+            onClick={() => alert("Dwonload Functionality Comming Soon.")}
+          >
             <RiDownloadFill />
             Dwonload Delivery Report
           </div>
