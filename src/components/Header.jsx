@@ -1,7 +1,7 @@
 import React from "react";
 import { Search, ChevronDown, Filter } from "lucide-react";
 import LogoIcon from "../assets/logo.png";
-import BoxIcon from "../assets/boxicon.png";
+import BoxIcon from "../assets/boxIcon.png";
 import { GoBell } from "react-icons/go";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { RiSearch2Line } from "react-icons/ri";
