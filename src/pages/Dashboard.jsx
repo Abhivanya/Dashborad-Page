@@ -10,6 +10,7 @@ const Dashboard = () => {
   const [activeDashboard, setActiveDashboard] = useState(5);
 
   const changeDashboard = (dashboardId) => {
+    console.log(dashboardId, activeDashboard);
     if (dashboardId !== activeDashboard) {
       setActiveDashboard(dashboardId);
     }
@@ -24,8 +25,15 @@ const Dashboard = () => {
           activeDashboard={activeDashboard}
           changeDashboard={changeDashboard}
         />
-        <DashboardChart />
-        <CampaignReport />
+        {activeDashboard === 5 && (
+          <div>
+            <DashboardChart />
+            <CampaignReport />
+          </div>
+        )}
+        {activeDashboard !== 5 && (
+          <div className="mt-10 mx-auto text-3xl">Blank Page</div>
+        )}
       </div>
       <div className="fixed left-4 bottom-5  w-[100px]">
         <img src={RoboImg} />

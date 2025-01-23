@@ -5,7 +5,7 @@ const ClientInfo = () => {
   return (
     <div className="m-4 ">
       <div className="flex items-center justify-between">
-        <div className="grid grid-cols-3 gap-3 border p-2 rounded bg-white">
+        <div className="grid grid-cols-3 gap-8 border p-2 rounded bg-white">
           <div>
             <div className="text-[13px] font-normal text-gray-900">
               Client Name:{" "}
@@ -18,7 +18,7 @@ const ClientInfo = () => {
               <span className="text-gray-600 font-normal">Devlopment</span>
             </div>
           </div>
-          <div>
+          <div className="text-center">
             <div className="text-[13px] text-gray-900">
               Client ID :
               <span className="text-gray-600 font-normal"> CLNT_007</span>
