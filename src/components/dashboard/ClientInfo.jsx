@@ -4,22 +4,22 @@ import { Download, ChevronDown } from "lucide-react";
 const ClientInfo = () => {
   return (
     <div className="m-4 ">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mr-2">
         <div className="grid grid-cols-3 gap-8 border p-2 rounded bg-white">
           <div>
-            <div className="text-[13px] font-normal text-gray-900">
+            <div className="text-[13px] font-normal text-gray-900 text-center">
               Client Name:{" "}
               <span className="text-gray-600 font-normal"> Abhi Yadav</span>
             </div>
           </div>
           <div>
-            <div className="text-[13px] text-gray-900">
+            <div className="text-[13px] text-center text-gray-900">
               Client Department :{" "}
               <span className="text-gray-600 font-normal">Devlopment</span>
             </div>
           </div>
-          <div className="text-center">
-            <div className="text-[13px] text-gray-900">
+          <div>
+            <div className="text-[13px] text-center text-gray-900">
               Client ID :
               <span className="text-gray-600 font-normal"> CLNT_007</span>
             </div>
